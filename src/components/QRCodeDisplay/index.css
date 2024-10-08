@@ -1,0 +1,18 @@
+/* QRCodeDisplay.css */
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.qr-container h3 {
+  color: #2e3b4e;
+  margin-bottom: 20px;
+}
+
+.qr-container canvas {
+  border: 5px solid #2e3b4e;
+  padding: 10px;
+  border-radius: 10px;
+}
